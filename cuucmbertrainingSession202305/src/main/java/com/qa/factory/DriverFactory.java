@@ -22,6 +22,7 @@ public class DriverFactory {
 	 */
 	public WebDriver initDriver(String browser) {
 		System.out.println("Browser name is :"+browser);
+		System.out.println("Browser name is :"+browser);
 		
 		if(browser.equalsIgnoreCase("chrome")) {
 			tlDriver.set(new ChromeDriver());		
