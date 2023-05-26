@@ -3,20 +3,13 @@ Feature: Registration page
 Background:
 Given Navigate to url 'http://automationexercise.com'
 And User click on Signup or Login button
-
-
-Scenario: Verify New User Signup! is visible
-Then page title should be "Automation Exercise - Signup / Login"
-
-Scenario: verify the signup title
-When user enter name and email address
+And user enter name and email address
 |Name|Email|
 |Anokar|anokarao@gmail.com|
 And clicks on signup button
-Then page title should be "Automation Exercise - Signup"
+
 
 Scenario: Register user
-
 Given user enter name and email address
 |Name|Email|
 |Anokar|anokarb1996@gmail.com|
@@ -32,13 +25,7 @@ Then screen should show "Logged in as Anokar"
 Then clicks on Delete Account
 Then Delete account message should show "ACCOUNT DELETED!"
 
-Scenario: Register user with existing email
 
-Given user enter name and email address
-|Name|Email|
-|Anokar|anokarao@gmail.com|
-And clicks on signup button
-When signup validation message should be "Email Address already exist!"
 
 
 
