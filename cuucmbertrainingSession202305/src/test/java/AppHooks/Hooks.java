@@ -1,6 +1,5 @@
 package AppHooks;
 
-<<<<<<< HEAD
 import java.util.Properties;
 
 import org.openqa.selenium.OutputType;
@@ -44,8 +43,5 @@ public class Hooks {
 			scenario.attach(screenshot, "image/png", filename);
 		}
 	}
-=======
-public class Hooks {
->>>>>>> f09ed57 (folder structure added)
 
 }
