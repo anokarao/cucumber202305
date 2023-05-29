@@ -58,19 +58,19 @@
 		</dependency>
 
 
-		<!--<dependency>
+		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.8.0</version>
 			<scope>test</scope>
-		</dependency>-->
+		</dependency>
 
-		<!--<dependency>
+		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>${cucumber.version}</version>
 			<scope>test</scope>
-		</dependency>-->
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>
@@ -117,7 +117,7 @@
 						<include>**/MyTestRunner.java</include>
 					</includes>
 					<parallel>methods</parallel>
-					<threadCount>4</threadCount>
+					<threadCount>8</threadCount>
 					<useUnlimitedThreads>false</useUnlimitedThreads>
 				</configuration>
         	</plugin>

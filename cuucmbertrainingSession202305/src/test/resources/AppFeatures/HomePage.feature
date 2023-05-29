@@ -17,7 +17,7 @@ Scenario: verify Delete Account button
 When User click on Signup or Login button
 And user enter name and email address and clicks on signup button
 |Name|Email|
-|Anokar|anokarb1996@gmail.com|
+|Anokar|testb1996@gmail.com|
 When user enters Acc info and clicks on create account button
 |Title|Name|Password|DOB|newsLetter|splOffers|FirstName|LastName|Company|Address|Address2|Country|State|City|Zipcode|mobile|
 |Mr.|test|test@1234|8-7-1994|Y|Y|test|qa|cap|jharsa|gurgaon|India|Haryana|gurgaon|122003|9876543210|
