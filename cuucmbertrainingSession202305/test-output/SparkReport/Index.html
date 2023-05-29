@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 29, 2023 08:39:19 am</span></a>
+<a href="#"><span class="badge badge-primary">May 29, 2023 09:07:21 AM</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 29, 2023 08:39:19 am</h3>
+<h3>May 29, 2023 09:07:21 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 29, 2023 08:40:44 am</h3>
+<h3>May 29, 2023 09:08:38 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -143,10 +143,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='91%'><b>42</b> steps passed</small></div>
+<div><small data-tooltip='86%'><b>40</b> steps passed</small></div>
 <div>
 <small data-tooltip='4%'><b>2</b> steps failed,
-<b>2</b> skipped, <b data-tooltip='%'>0</b> others
+<b>4</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"Login/signup Page Feature":54.299,"Home page":84.424,"Registration page":75.843
+"Home page":75.638,"Login/signup Page Feature":49.748,"Registration page":75.728
 };
 </script>
 <div class="row">
@@ -208,10 +208,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 42,
+passGrandChild: 40,
 failGrandChild: 2,
 warningGrandChild: 0,
-skipGrandChild: 2,
+skipGrandChild: 4,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -234,25 +234,25 @@ eventsCount: 5,
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login/signup Page Feature</p>
+            <p class="name">Home page</p>
             <p class="text-sm">
-              <span>8:39:20 am</span> / <span>00:00:54:299</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>9:07:22 AM</span> / <span>00:01:15:638</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Login/signup Page Feature</h5>
-<span class='badge badge-success'>05.29.2023 8:39:20 am</span>
-<span class='badge badge-danger'>05.29.2023 8:40:14 am</span>
-<span class='badge badge-default'>00:00:54:299</span>
+<h5 class="test-status text-fail">Home page</h5>
+<span class='badge badge-success'>05.29.2023 9:07:22 AM</span>
+<span class='badge badge-danger'>05.29.2023 9:08:38 AM</span>
+<span class='badge badge-default'>00:01:15:638</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -264,169 +264,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>verify the signup title</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
-                <span>Given Navigate to url</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.HomePageSteps.user_click_on_signup_or_login_button()">
-                <span>And User click on Signup or Login button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.user_enter_name_and_email_address_and_clicks_on_signup_button(io.cucumber.datatable.DataTable)">
-                <span>When user enter name and email address and clicks on signup button</span>
-      <div><table class='markup-table table '><tr><td>Name</td><td>Email</td></tr><tr><td>Anokar</td><td>anokarb1996@gmail.com</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.HomePageSteps.page_title_should_be(java.lang.String)">
-                <span>Then page title should be "Automation Exercise - Signup"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Login Feature with correct credentials</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
-                <span>Given Navigate to url</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.HomePageSteps.user_click_on_signup_or_login_button()">
-                <span>And User click on Signup or Login button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.user_enters_email_and_password_and_clicks_on_login_button(io.cucumber.datatable.DataTable)">
-                <span>When user enters Email and Password and Clicks on Login button</span>
-      <div><table class='markup-table table '><tr><td>Email</td><td>Password</td></tr><tr><td>anokarao@gmail.com</td><td>test123</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.screen_should_show(java.lang.String)">
-                <span>Then screen should show "Logged in as Anokar"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Register user with existing email</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
-                <span>Given Navigate to url</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.HomePageSteps.user_click_on_signup_or_login_button()">
-                <span>And User click on Signup or Login button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.user_enter_name_and_email_address_and_clicks_on_signup_button(io.cucumber.datatable.DataTable)">
-                <span>Given user enter name and email address and clicks on signup button</span>
-      <div><table class='markup-table table '><tr><td>Name</td><td>Email</td></tr><tr><td>Anokar</td><td>anokarao@gmail.com</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.Signupvalidation_should_show(java.lang.String)">
-                <span>Then Signupvalidation should show "Email Address already exist!"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="16"><span class="badge log pass-bg mr-2">Pass</span>Login Feature with incorrect credentials</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
-                <span>Given Navigate to url</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.HomePageSteps.user_click_on_signup_or_login_button()">
-                <span>And User click on Signup or Login button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.user_enters_email_and_password_and_clicks_on_login_button(io.cucumber.datatable.DataTable)">
-                <span>When user enters Email and Password and Clicks on Login button</span>
-      <div><table class='markup-table table '><tr><td>Email</td><td>Password</td></tr><tr><td>anokarao@gmail.com</td><td>test12</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.Signinvalidation_should_show(java.lang.String)">
-                <span>Then SigninValidation should show "Your email or password is incorrect!"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="5"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Home page</p>
-            <p class="text-sm">
-              <span>8:39:20 am</span> / <span>00:01:24:424</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">Home page</h5>
-<span class='badge badge-success'>05.29.2023 8:39:20 am</span>
-<span class='badge badge-danger'>05.29.2023 8:40:44 am</span>
-<span class='badge badge-default'>00:01:24:424</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>verify the page title</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>verify the page title</div>
       </div>
     </div>
         <div class="collapse">
@@ -447,57 +285,13 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="9"><span class="badge log fail-bg mr-2">Fail</span>verify the testcases button</div>
+        <div class="node" id="7"><span class="badge log fail-bg mr-2">Fail</span>verify Delete Account button</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
       </div>
     </div>
         <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
-                <span>Given Navigate to url</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDef.HomePageSteps.user_clicks_on_test_cases_button()">
-                <span>When user clicks on Test cases button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="stepDef.HomePageSteps.page_title_should_be(java.lang.String)">
-                <span>Then page title should be "Automation Practice Website for UI Testing - Test Cases"</span>
-      <div>
-        <textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<Automation [Exercise]> but was:<Automation [Practice Website for UI Testing - Test Cases]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepDef.HomePageSteps.page_title_should_be(HomePageSteps.java:35)
-	at ✽.page title should be "Automation Practice Website for UI Testing - Test Cases"(file:///C:/Users/anoka/eclipse-workspace/cuucmbertrainingSession202305/src/test/resources/AppFeatures/HomePage.feature:14)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step pass-bg" title="AFTER">
-                <span>AppHooks.Hooks.tearDown(io.cucumber.java.Scenario)</span>
-      <div>verify_the_testcases_button
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../embedded1.png' src="../embedded1.png">
-    
-    </div></div>
-</div>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>verify Delete Account button</div>
-      </div>
-    </div>
-        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
                 <span>Given Navigate to url</span>
@@ -538,18 +332,58 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.screen_should_show(java.lang.String)">
+              <div class="step fail-bg" title="stepDef.SignupOrSignInPageSteps.screen_should_show(java.lang.String)">
                 <span>Then screen should show "Logged in as test"</span>
       <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[10]//a[1]"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [213be2b7629451d325852e8140490528, findElement {using=xpath, value=//li[10]//a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\anoka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65260/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 213be2b7629451d325852e8140490528
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.pages.HomePage.getLoggedinMsg(HomePage.java:44)
+	at stepDef.SignupOrSignInPageSteps.screen_should_show(SignupOrSignInPageSteps.java:33)
+	at ?.screen should show "Logged in as test"(file:///C:/Users/anoka/eclipse-workspace/cuucmbertrainingSession202305/src/test/resources/AppFeatures/HomePage.feature:27)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepDef.HomePageSteps.clicks_on_delete_account()">
+              <div class="step skip-bg" title="stepDef.HomePageSteps.clicks_on_delete_account()">
                 <span>Then clicks on Delete Account</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDef.HomePageSteps.delete_account_message_should_show(java.lang.String)">
+              <div class="step skip-bg" title="stepDef.HomePageSteps.delete_account_message_should_show(java.lang.String)">
                 <span>Then Delete account message should show "ACCOUNT DELETED!"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>AppHooks.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>verify_Delete_Account_button
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded1.png' src="../embedded1.png">
+    
+    </div></div>
+</div>
       <div>
       </div>
               </div>
@@ -559,7 +393,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>verify the Signup or Login button</div>
+        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>verify the Signup or Login button</div>
       </div>
     </div>
         <div class="collapse">
@@ -582,29 +416,55 @@ eventsCount: 5,
           </div>
         </div>
   </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>verify the testcases button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
+                <span>Given Navigate to url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.HomePageSteps.user_clicks_on_test_cases_button()">
+                <span>When user clicks on Test cases button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.HomePageSteps.page_title_should_be(java.lang.String)">
+                <span>Then page title should be "Automation Practice Website for UI Testing - Test Cases"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="11"
+        <li class="test-item"  status="pass" test-id="3"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Registration page</p>
+            <p class="name">Login/signup Page Feature</p>
             <p class="text-sm">
-              <span>8:39:20 am</span> / <span>00:01:15:843</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>9:07:22 AM</span> / <span>00:00:49:748</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Registration page</h5>
-<span class='badge badge-success'>05.29.2023 8:39:20 am</span>
-<span class='badge badge-danger'>05.29.2023 8:40:36 am</span>
-<span class='badge badge-default'>00:01:15:843</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<h5 class="test-status text-pass">Login/signup Page Feature</h5>
+<span class='badge badge-success'>05.29.2023 9:07:22 AM</span>
+<span class='badge badge-danger'>05.29.2023 9:08:12 AM</span>
+<span class='badge badge-default'>00:00:49:748</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -615,7 +475,169 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="12"><span class="badge log fail-bg mr-2">Fail</span>enter Account information</div>
+        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Login Feature with incorrect credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
+                <span>Given Navigate to url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.HomePageSteps.user_click_on_signup_or_login_button()">
+                <span>And User click on Signup or Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.user_enters_email_and_password_and_clicks_on_login_button(io.cucumber.datatable.DataTable)">
+                <span>When user enters Email and Password and Clicks on Login button</span>
+      <div><table class='markup-table table '><tr><td>Email</td><td>Password</td></tr><tr><td>anokarao@gmail.com</td><td>test12</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.Signinvalidation_should_show(java.lang.String)">
+                <span>Then SigninValidation should show "Your email or password is incorrect!"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="5"><span class="badge log pass-bg mr-2">Pass</span>Login Feature with correct credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
+                <span>Given Navigate to url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.HomePageSteps.user_click_on_signup_or_login_button()">
+                <span>And User click on Signup or Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.user_enters_email_and_password_and_clicks_on_login_button(io.cucumber.datatable.DataTable)">
+                <span>When user enters Email and Password and Clicks on Login button</span>
+      <div><table class='markup-table table '><tr><td>Email</td><td>Password</td></tr><tr><td>anokarao@gmail.com</td><td>test123</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.screen_should_show(java.lang.String)">
+                <span>Then screen should show "Logged in as Anokar"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>Register user with existing email</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
+                <span>Given Navigate to url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.HomePageSteps.user_click_on_signup_or_login_button()">
+                <span>And User click on Signup or Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.user_enter_name_and_email_address_and_clicks_on_signup_button(io.cucumber.datatable.DataTable)">
+                <span>Given user enter name and email address and clicks on signup button</span>
+      <div><table class='markup-table table '><tr><td>Name</td><td>Email</td></tr><tr><td>Anokar</td><td>anokarao@gmail.com</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.Signupvalidation_should_show(java.lang.String)">
+                <span>Then Signupvalidation should show "Email Address already exist!"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>verify the signup title</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDef.HomePageSteps.navigate_to_url()">
+                <span>Given Navigate to url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.HomePageSteps.user_click_on_signup_or_login_button()">
+                <span>And User click on Signup or Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.SignupOrSignInPageSteps.user_enter_name_and_email_address_and_clicks_on_signup_button(io.cucumber.datatable.DataTable)">
+                <span>When user enter name and email address and clicks on signup button</span>
+      <div><table class='markup-table table '><tr><td>Name</td><td>Email</td></tr><tr><td>Anokar</td><td>anokarb1996@gmail.com</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDef.HomePageSteps.page_title_should_be(java.lang.String)">
+                <span>Then page title should be "Automation Exercise - Signup"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Registration page</p>
+            <p class="text-sm">
+              <span>9:07:22 AM</span> / <span>00:01:15:728</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Registration page</h5>
+<span class='badge badge-success'>05.29.2023 9:07:22 AM</span>
+<span class='badge badge-danger'>05.29.2023 9:08:38 AM</span>
+<span class='badge badge-default'>00:01:15:728</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log fail-bg mr-2">Fail</span>enter Account information</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -669,16 +691,15 @@ eventsCount: 5,
   (Session info: chrome=113.0.5672.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cde32f8aacd0ae8d2ebc36bb0fd74cf3, findElement {using=xpath, value=//li[10]//a[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\anoka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62380/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cde32f8aacd0ae8d2ebc36bb0fd74cf3
+Command: [beab1a3ac9a16c97cd48097cf5525cb8, findElement {using=xpath, value=//li[10]//a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\anoka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65155}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65155/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: beab1a3ac9a16c97cd48097cf5525cb8
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -692,7 +713,7 @@ Session ID: cde32f8aacd0ae8d2ebc36bb0fd74cf3
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at com.pages.HomePage.getLoggedinMsg(HomePage.java:44)
 	at stepDef.SignupOrSignInPageSteps.screen_should_show(SignupOrSignInPageSteps.java:33)
-	at ✽.screen should show "Logged in as test"(file:///C:/Users/anoka/eclipse-workspace/cuucmbertrainingSession202305/src/test/resources/AppFeatures/RegistrationPage.feature:17)
+	at ?.screen should show "Logged in as test"(file:///C:/Users/anoka/eclipse-workspace/cuucmbertrainingSession202305/src/test/resources/AppFeatures/RegistrationPage.feature:17)
 </textarea>
       
       </div>
@@ -737,58 +758,22 @@ Session ID: cde32f8aacd0ae8d2ebc36bb0fd74cf3
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">org.junit.ComparisonFailure</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.junit.ComparisonFailure</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>08:40:07 am</td>
-<td>
-<a href="#" class="linked" test-id='5' id='67'>Then page title should be "Automation Practice Website for UI Testing - Test Cases"</a>
-<div class="">
-<span class="badge badge-default">Home page.verify the testcases button.Then page title should be "Automation Practice Website for UI Testing - Test Cases"</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-danger'>2</span>
 </span>
 <p class="name">org.openqa.selenium.NoSuchElementException</p>
-<p class="duration text-sm">1 tests</p>
+<p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>org.openqa.selenium.NoSuchElementException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -801,9 +786,19 @@ Session ID: cde32f8aacd0ae8d2ebc36bb0fd74cf3
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>08:40:19 am</td>
+<td>09:08:22 AM</td>
 <td>
-<a href="#" class="linked" test-id='11' id='80'>Then screen should show "Logged in as test"</a>
+<a href="#" class="linked" test-id='1' id='83'>Then screen should show "Logged in as test"</a>
+<div class="">
+<span class="badge badge-default">Home page.verify Delete Account button.Then screen should show "Logged in as test"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:08:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='84'>Then screen should show "Logged in as test"</a>
 <div class="">
 <span class="badge badge-default">Registration page.enter Account information.Then screen should show "Logged in as test"</span>
 </div>
