@@ -14,6 +14,8 @@ public class SignupOrSignInPage {
 	By signupName=By.xpath("//input[@placeholder='Name']");
 	By signupEmail=By.xpath("//input[@data-qa='signup-email']");
 	By signupBtn=By.xpath("//button[normalize-space()='Signup']");
+	By signInvalidationMsg=By.xpath("//input[@name='password']/following::p");
+	By signupvalidationMsg=By.xpath("//button[contains(text(),'Signup')]/preceding::p");
 
 	public SignupOrSignInPage(WebDriver driver)
 	{
@@ -43,18 +45,33 @@ public class SignupOrSignInPage {
 		driver.findElement(signupBtn).click();
 	}
 	
-	public HomePage doLogin(String email,String password) {
+	public void doLogin(String email,String password) {
 		driver.findElement(userEmail).sendKeys(email);
 		driver.findElement(signInpassword).sendKeys(password);
 		driver.findElement(loginBtn).click();
+		
+	}
+	public HomePage getHomePage() {
 		return new HomePage(driver);
 	}
 	
-	public RegistrationPage doSignup(String name,String email) {
+	public String getSignInValidation() {
+		return driver.findElement(signInvalidationMsg).getText();
+	}
+	
+	public void doSignup(String name,String email) {
 		driver.findElement(signupName).sendKeys(name);
 		driver.findElement(signupEmail).sendKeys(email);
 		driver.findElement(signupBtn).click();
+		
+	}
+	
+	public RegistrationPage getRegistrationPage() {
 		return new RegistrationPage(driver);
+	}
+	
+	public String getSignupValidationMsg() {
+		return driver.findElement(signupvalidationMsg).getText();
 	}
 	
 	

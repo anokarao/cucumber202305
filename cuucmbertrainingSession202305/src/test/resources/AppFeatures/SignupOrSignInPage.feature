@@ -1,46 +1,29 @@
-Feature: Login Page Feature
+Feature: Login/signup Page Feature
 
 Background:
-Given Navigate to url 'http://automationexercise.com'
+Given Navigate to url
 And User click on Signup or Login button
 
-Scenario: Verify New User Signup! is visible
-Then page title should be "Automation Exercise - Signup / Login"
+Scenario: Login Feature with correct credentials
+When user enters Email and Password and Clicks on Login button
+|Email|Password|
+|anokarao@gmail.com|test123|
+Then screen should show "Logged in as Anokar" 
+
+Scenario: Login Feature with incorrect credentials
+When user enters Email and Password and Clicks on Login button
+|Email|Password|
+|anokarao@gmail.com|test12|
+Then SigninValidation should show "Your email or password is incorrect!"
 
 Scenario: verify the signup title
-When user enter name and email address
+When user enter name and email address and clicks on signup button
 |Name|Email|
-|Anokar|anokarao@gmail.com|
-And clicks on signup button
+|Anokar|anokarb1996@gmail.com|
 Then page title should be "Automation Exercise - Signup"
 
 Scenario: Register user with existing email
-Given user enter name and email address
+Given user enter name and email address and clicks on signup button
 |Name|Email|
 |Anokar|anokarao@gmail.com|
-And clicks on signup button
-When signup validation message should be "Email Address already exist!"
-
-Scenario: Login Feature with correct credentials
-When user enters Email and Password
-|Email|Password|
-|anokarao@gmail.com|test123|
-And Clicks on login button
-Then screen should show "Logged in as Anokar"
-
-
-Scenario: Login Feature with incorrect credentials
-When user enters Email and Password
-|Email|Password|
-|anokarao@gmail.com|test12|
-And Clicks on login button
-Then login validation should show "Your email or password is incorrect!"
-
-Scenario: Logout Feature
-When user enters Email and Password
-|Email|Password|
-|anokarao@gmail.com|test123|
-And Clicks on login button
-Then screen should show "Logged in as Anokar"
-And Click on Logout
-And screen should show " Signup / Login"
+Then Signupvalidation should show "Email Address already exist!"

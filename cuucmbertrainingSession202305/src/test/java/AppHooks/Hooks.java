@@ -36,6 +36,7 @@ public class Hooks {
 		driver.quit();
 	}
 	
+	@After(order=1)
 	public void tearDown(Scenario scenario) {
 		if(scenario.isFailed()) {
 			String filename=scenario.getName().replaceAll(" ", "_");

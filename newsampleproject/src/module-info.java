@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author anoka
- *
- */
-module newsampleproject {
-}
